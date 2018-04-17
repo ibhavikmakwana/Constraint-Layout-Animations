@@ -3,8 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/black"
     tools:context=".KeyFrameAnimationActivity">
 
     <ImageView
@@ -13,23 +15,9 @@
         android:layout_height="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/background"
-        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_padding_24"
-        android:background="@color/colorPrimary"
-        android:paddingEnd="@dimen/margin_padding_24"
-        android:paddingStart="@dimen/margin_padding_24"
-        android:text="@string/orion_m42"
-        android:textColor="@android:color/white"
-        android:textSize="@dimen/text_size_48"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
@@ -42,8 +30,22 @@
         android:paddingTop="@dimen/margin_padding_4"
         android:text="@string/bryan_goff_on_unsplash"
         android:textSize="@dimen/text_size_12"
-        app:layout_constraintRight_toRightOf="@+id/title"
-        app:layout_constraintTop_toBottomOf="@+id/title"/>
+        app:layout_constraintBottom_toBottomOf="@+id/title"
+        app:layout_constraintRight_toRightOf="@+id/title"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padding_24"
+        android:background="@color/colorPrimary"
+        android:paddingEnd="@dimen/margin_padding_24"
+        android:paddingStart="@dimen/margin_padding_24"
+        android:text="@string/orion_m42"
+        android:textColor="#FFFF"
+        android:textSize="@dimen/text_size_48"
+        app:layout_constraintRight_toLeftOf="@+id/iv_background_image"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <View
         android:id="@+id/fadeView"
@@ -57,14 +59,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/black"
-        android:paddingBottom="@dimen/margin_padding_8dp"
-        android:paddingEnd="@dimen/margin_padding_8dp"
+        android:paddingBottom="@dimen/text_size_48"
+        android:paddingEnd="@dimen/text_size_48"
         android:paddingStart="@dimen/margin_padding_8dp"
         android:text="@string/detail_text"
         android:textColor="#FFFF"
         android:textSize="@dimen/text_size_24"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_background_image"/>
 
 </android.support.constraint.ConstraintLayout>

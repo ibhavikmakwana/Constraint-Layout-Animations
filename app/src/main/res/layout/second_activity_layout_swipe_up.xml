@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:id="@+id/root_constraint"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="#ffffff">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="130dp"/>
+
+    <ImageView
+        android:id="@+id/sun_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sun"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/sun_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/sun_image"/>
+
+    <ImageView
+        android:id="@+id/earth_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/earth"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sun_image"/>
+
+    <TextView
+        android:id="@+id/earth_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Earth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/earth_image"/>
+
+    <ImageView
+        android:id="@+id/mars_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/mars"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/earth_image"/>
+
+    <TextView
+        android:id="@+id/mars_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mars"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/mars_image"/>
+
+    <ImageView
+        android:id="@+id/saturn_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/saturn"
+        app:layout_constraintEnd_toEndOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mars_image"/>
+
+    <TextView
+        android:id="@+id/saturn_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Saturn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="@id/saturn_image"/>
+
+</android.support.constraint.ConstraintLayout>

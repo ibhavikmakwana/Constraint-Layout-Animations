@@ -3,4 +3,13 @@
     <string name="orion_m42">Orion M42</string>
     <string name="bryan_goff_on_unsplash">Bryan Goff on Unsplash</string>
     <string name="detail_text">The Orion Nebula, or M42, is one of the brigtest nebula from earth. With the naked eye you can sometimes see orion as the middle star in the \"sword\" of the Orion constelation.</string>
+    <string name="next">Next</string>
+    <string name="click_here">Click Here</string>
+    <string name="key_frame_animation_1">Key Frame Animation 1</string>
+    <string name="key_frame_animation_2">Key Frame Animation 2</string>
+    <string name="search">Search</string>
+    <string name="jordan_ultra">JORDAN ULTRA</string>
+    <string name="men_s_basketball_shoe">men\'s basketball shoe</string>
+    <string name="select_size">Select Size</string>
+    <string name="add_to_bag">Add to bag</string>
 </resources>
