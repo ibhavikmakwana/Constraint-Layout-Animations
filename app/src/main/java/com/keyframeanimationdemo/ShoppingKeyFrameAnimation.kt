@@ -69,6 +69,7 @@ class ShoppingKeyFrameAnimation : AppCompatActivity() {
         newConstraintSet.applyTo(shoppingRoot)
         val transition = ChangeBounds()
         transition.interpolator = OvershootInterpolator()
+        transition.duration = 1200
         TransitionManager.beginDelayedTransition(shoppingRoot, transition)
     }
 
