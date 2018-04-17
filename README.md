@@ -10,6 +10,9 @@ https://www.youtube.com/watch?v=OHcfs6rStRo
 
 - Bhavik Makwana [linkedin](https://www.linkedin.com/in/ibhavikmakwana/) [Twitter](https://twitter.com/ibhavikmakwana)
 
+# Credits
+I have used [Ramotion's design](https://www.uplabs.com/posts/shopping-app-interactions) concept for the animation of shopping layout
+
 # License
 
 The contents of this repository are covered under the [Apache License 2.0](https://github.com/ibhavikmakwana/KeyFrameAnimationDemo/blob/master/LICENSE).
