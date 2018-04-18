@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         tv_one.setOnClickListener(this)
         tv_two.setOnClickListener(this)
+        tv_parallax_effect.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.tv_two -> {
                 ShoppingKeyFrameAnimation.launchActivity(this)
+            }
+            R.id.tv_parallax_effect -> {
+                CollapsingToolbarActivity.launchActivity(this)
             }
         }
     }

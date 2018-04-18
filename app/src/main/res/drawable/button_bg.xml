@@ -5,6 +5,11 @@
             <corners android:bottomLeftRadius="16dp"
                      android:bottomRightRadius="16dp"/>
             <solid android:color="#FF4081"/>
+            <stroke android:width="3dp" android:color="@android:color/transparent"/>
+            <padding android:bottom="0dp"
+                     android:left="0dp"
+                     android:right="0dp"
+                     android:top="0dp"/>
         </shape>
     </item>
     <item>
@@ -12,6 +17,11 @@
             <corners android:bottomLeftRadius="16dp"
                      android:bottomRightRadius="16dp"/>
             <solid android:color="#FFDD44"/>
+            <stroke android:width="3dp" android:color="@android:color/transparent"/>
+            <padding android:bottom="0dp"
+                     android:left="0dp"
+                     android:right="0dp"
+                     android:top="0dp"/>
         </shape>
     </item>
 </selector>

@@ -12,6 +12,7 @@ import android.transition.TransitionManager
 import android.view.animation.OvershootInterpolator
 import kotlinx.android.synthetic.main.activity_shopping_key_frame_animation.*
 
+
 class ShoppingKeyFrameAnimation : AppCompatActivity() {
 
     /**
@@ -33,66 +34,27 @@ class ShoppingKeyFrameAnimation : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     private fun setupAnimations() {
         var show = false
-//        btn_add_to_bag.setOnClickListener {
-//            show = if (show) {
-//                hideComponents()
-//                btn_add_to_bag.text = "ADD TO CART - $125"
-//                false
-//            } else {
-//                showComponents()
-//                btn_add_to_bag.text = "SELECT SIZE"
-//                true
-//            }
-//        }
         btn_add_to_bag.setOnClickListener {
             show = if (show) {
-                updateConstraints(R.layout.shopping_activity_select_size)
+                updateConstraints(R.layout.activity_shopping_key_frame_animation)
                 btn_add_to_bag.text = resources.getString(R.string.add_to_bag) + " $125"
                 false
             } else {
-                updateConstraints(R.layout.activity_shopping_key_frame_animation)
+                updateConstraints(R.layout.shopping_activity_select_size)
                 btn_add_to_bag.text = "SELECT SIZE"
                 true
             }
         }
-
-        /*close.setOnClickListener {
-            updateConstraints(R.layout.activity_shopping_key_frame_animation)
-            btn_add_to_bag.text = resources.getString(R.string.add_to_bag)
-        }*/
     }
 
 
     private fun updateConstraints(@LayoutRes id: Int) {
         val newConstraintSet = ConstraintSet()
         newConstraintSet.clone(this, id)
-        newConstraintSet.applyTo(shoppingRoot)
+        newConstraintSet.applyTo(shopping_cc)
         val transition = ChangeBounds()
         transition.interpolator = OvershootInterpolator()
         transition.duration = 1200
-        TransitionManager.beginDelayedTransition(shoppingRoot, transition)
+        TransitionManager.beginDelayedTransition(shopping_cc, transition)
     }
-
-    /*private fun showComponents() {
-        val constraintSet = ConstraintSet()
-        constraintSet.clone(this, R.layout.shopping_activity_select_size)
-        val transition = ChangeBounds()
-        transition.interpolator = OvershootInterpolator()
-
-        TransitionManager.beginDelayedTransition(shoppingRoot, transition)
-
-        constraintSet.applyTo(shoppingRoot)
-    }
-
-    private fun hideComponents() {
-        val constraintSet = ConstraintSet()
-        constraintSet.clone(this, R.layout.activity_shopping_key_frame_animation)
-
-        val transition = ChangeBounds()
-        transition.interpolator = OvershootInterpolator()
-
-        TransitionManager.beginDelayedTransition(shoppingRoot, transition)
-
-        constraintSet.applyTo(shoppingRoot)
-    }*/
 }

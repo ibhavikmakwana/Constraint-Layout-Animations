@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
+        android:id="@+id/tv_author"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/darker_gray"
@@ -30,11 +31,11 @@
         android:paddingTop="@dimen/margin_padding_4"
         android:text="@string/bryan_goff_on_unsplash"
         android:textSize="@dimen/text_size_12"
-        app:layout_constraintBottom_toBottomOf="@+id/title"
-        app:layout_constraintRight_toRightOf="@+id/title"/>
+        app:layout_constraintBottom_toBottomOf="@+id/tv_title"
+        app:layout_constraintRight_toRightOf="@+id/tv_title"/>
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_padding_24"

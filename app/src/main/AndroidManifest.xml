@@ -18,8 +18,7 @@
         </activity>
         <activity
             android:name=".KeyFrameAnimationActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"
@@ -27,8 +26,10 @@
 
         <activity
             android:name=".ShoppingKeyFrameAnimation"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".CollapsingToolbarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
