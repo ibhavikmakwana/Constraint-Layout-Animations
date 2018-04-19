@@ -6,6 +6,8 @@ https://www.youtube.com/watch?v=OHcfs6rStRo
 # Preview
 <img src="https://github.com/ibhavikmakwana/KeyFrameAnimation/blob/master/keyframeanimation.gif" height="400" alt="Screenshot"/>         <img src="https://github.com/ibhavikmakwana/KeyFrameAnimation/blob/master/ShoppingKeyframeAnimation.gif" height="400" alt="Screenshot"/>         <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/collapsing%20toolbar.gif" height="400" alt="Screenshot"/>
 
+<img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/parallax_effect.gif" height="400" alt="Screenshot"/>
+
 # Developed by
 
 - Bhavik Makwana [linkedin](https://www.linkedin.com/in/ibhavikmakwana/) [Twitter](https://twitter.com/ibhavikmakwana)
