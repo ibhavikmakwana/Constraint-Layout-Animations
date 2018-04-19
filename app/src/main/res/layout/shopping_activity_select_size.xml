@@ -22,7 +22,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_background"
+                android:id="@+id/iv_product_image"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:alpha="0"
@@ -32,7 +32,7 @@
                 app:srcCompat="@drawable/jordan_ultra"/>
 
             <TextView
-                android:id="@+id/text_view3"
+                android:id="@+id/tv_product_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
@@ -43,10 +43,10 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_background"/>
+                app:layout_constraintTop_toBottomOf="@+id/iv_product_image"/>
 
             <TextView
-                android:id="@+id/text_view_4"
+                android:id="@+id/tv_product_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -56,10 +56,10 @@
                 android:textAllCaps="true"
                 android:textStyle="italic"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_view3"/>
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_name"/>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tv_select_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
@@ -68,7 +68,7 @@
                 android:fontFamily="@font/poppins"
                 android:text="@string/select_size"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_view_4"/>
+                app:layout_constraintTop_toBottomOf="@+id/tv_product_desc"/>
 
             <Button
                 android:id="@+id/size"
@@ -80,7 +80,7 @@
                 android:background="@drawable/button_background"
                 android:text="M"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+                app:layout_constraintTop_toBottomOf="@+id/tv_select_size"/>
 
             <Button
                 android:id="@+id/btn_add_to_bag"

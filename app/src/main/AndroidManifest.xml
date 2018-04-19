@@ -30,6 +30,9 @@
         <activity
             android:name=".CollapsingToolbarActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ParallaxEffectActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

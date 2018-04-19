@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
-    android:id="@+id/cc_root"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cc_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.keyframeanimationdemo.ShoppingKeyFrameAnimation">
@@ -13,16 +13,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/margin_padding_16"
-        android:elevation="8dp"
+        android:elevation="16dp"
         app:cardCornerRadius="@dimen/margin_padding_16">
 
-        <android.support.constraint.ConstraintLayout
+        <include layout="@layout/layout_hidden_size"/>
+        <!--<android.support.constraint.ConstraintLayout
             android:id="@+id/shopping_cc"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/iv_background"
+                android:id="@+id/imageView"
                 android:layout_width="0dp"
                 android:layout_height="200dp"
                 android:layout_marginTop="32dp"
@@ -44,7 +45,7 @@
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/iv_background"/>
+                app:layout_constraintTop_toBottomOf="@+id/imageView"/>
 
             <TextView
                 android:id="@+id/text_view_4"
@@ -94,6 +95,6 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"/>
-        </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>-->
     </android.support.v7.widget.CardView>
 </android.support.constraint.ConstraintLayout>

@@ -12,19 +12,23 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
         tv_one.setOnClickListener(this)
         tv_two.setOnClickListener(this)
+        tv_collapsing_toolbar.setOnClickListener(this)
         tv_parallax_effect.setOnClickListener(this)
     }
 
-    override fun onClick(v: View?) {
-        when (v?.id) {
+    override fun onClick(view: View?) {
+        when (view?.id) {
             R.id.tv_one -> {
                 KeyFrameAnimationActivity.launchActivity(this)
             }
             R.id.tv_two -> {
                 ShoppingKeyFrameAnimation.launchActivity(this)
             }
-            R.id.tv_parallax_effect -> {
+            R.id.tv_collapsing_toolbar -> {
                 CollapsingToolbarActivity.launchActivity(this)
+            }
+            R.id.tv_parallax_effect -> {
+                ParallaxEffectActivity.launchActivity(this)
             }
         }
     }

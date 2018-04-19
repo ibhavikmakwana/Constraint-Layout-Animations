@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.keyframeanimationdemo.utils.NoAnimCollapsibleConstraintLayout
+<com.keyframeanimationdemo.utils.CollapsibleConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,7 +12,7 @@
     app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
 
     <ImageView
-        android:id="@+id/iv_background"
+        android:id="@+id/iv_product_image"
         android:layout_width="384dp"
         android:layout_height="0dp"
         android:scaleType="centerCrop"
@@ -49,4 +49,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_icon"
         tools:layout_editor_absoluteX="8dp"/>
-</com.keyframeanimationdemo.utils.NoAnimCollapsibleConstraintLayout>
+</com.keyframeanimationdemo.utils.CollapsibleConstraintLayout>

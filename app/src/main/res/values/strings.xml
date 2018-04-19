@@ -24,4 +24,7 @@ Donec vel urna mauris. Aliquam viverra non sapien at interdum. Curabitur tincidu
 
 Integer feugiat ultricies ligula a venenatis. Phasellus nec faucibus justo. Duis iaculis odio ut lacus posuere egestas. Cras maximus nulla sem, ut faucibus dolor dapibus at. Quisque nunc mi, vestibulum nec tempor vitae, lobortis vel libero. Etiam maximus tortor quis lorem convallis porta porta vel quam. Vestibulum gravida lorem vitae magna placerat, quis pharetra odio aliquet. Nunc id justo fringilla, pretium nibh ac, venenatis neque.
     </string>
+    <string name="parallax_effect">Parallax Effect</string>
+    <string name="title_text">An Interesting title</string>
+    <string name="content_text">Various relevant and insightful information</string>
 </resources>

@@ -16,7 +16,7 @@ import com.keyframeanimationdemo.R
  * Created by Bhavik Makwana on 13-03-2018.
  */
 
-class NoAnimCollapsibleConstraintLayout : ConstraintLayout, AppBarLayout.OnOffsetChangedListener {
+class CollapsibleConstraintLayout : ConstraintLayout, AppBarLayout.OnOffsetChangedListener {
 
     constructor(context: Context) : this(context, null)
     constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0)
@@ -45,7 +45,7 @@ class NoAnimCollapsibleConstraintLayout : ConstraintLayout, AppBarLayout.OnOffse
             mOpenToolBarSet.clone(context, R.layout.toolbar_layout)
             mCloseToolBarSet.clone(context, R.layout.layout_closed_toolbar)
 
-            mBackground = findViewById(R.id.iv_background)
+            mBackground = findViewById(R.id.iv_product_image)
             mTitle = findViewById(R.id.tv_title)
             mIcon = findViewById(R.id.iv_icon)
             showImageAnimator = ObjectAnimator.ofFloat(mBackground, "alpha", 0f, 1f)
