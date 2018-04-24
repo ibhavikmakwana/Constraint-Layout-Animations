@@ -39,8 +39,8 @@ class NestedConstraintLayout : ConstraintLayout {
 
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
-        mHideSet.clone(context, R.layout.layout_hidden_size)
-        mShowSet.clone(context, R.layout.layout_visible_size)
+        mHideSet.clone(context, R.layout.layout_shopping_activity_invisble_size)
+        mShowSet.clone(context, R.layout.layout_shopping_activity_select_size)
         mBtnAddToBag = findViewById(R.id.btn_add_to_bag)
         mProductImage = findViewById(R.id.iv_product_image)
         mProductName = findViewById(R.id.tv_product_name)
@@ -61,7 +61,7 @@ class NestedConstraintLayout : ConstraintLayout {
                 mBtnAddToBag?.text = resources.getString(R.string.add_to_bag) + " $125"
                 false
             } else {
-                updateConstraints(R.layout.shopping_activity_select_size)
+                updateConstraints(R.layout.layout_shopping_activity_select_size)
                 mBtnAddToBag?.text = "SELECT SIZE"
                 true
             }

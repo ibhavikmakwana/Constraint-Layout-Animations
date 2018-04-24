@@ -33,7 +33,7 @@ class Adapter(context: Context, images: Array<Int>) : RecyclerView.Adapter<Adapt
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val image = mImages[position]
-        holder.imageView.setImageDrawable(ContextCompat.getDrawable(mContext, image))
+        holder.imageView.setImageDrawable(ContextCompat.getDrawable(this.mContext!!, image))
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.keyframeanimationdemo.utils.NestedConstraintLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/shopping_cc"
@@ -9,8 +9,9 @@
     <ImageView
         android:id="@+id/iv_product_image"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:alpha="0"
+        android:layout_height="200dp"
+        android:layout_marginTop="32dp"
+        android:alpha="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,8 +35,8 @@
         android:id="@+id/tv_product_desc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins"
         android:text="@string/men_s_basketball_shoe"
         android:textAllCaps="true"
@@ -47,10 +48,9 @@
         android:id="@+id/tv_select_size"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:layout_marginStart="24dp"
-        android:alpha="1"
-        android:fontFamily="@font/poppins"
+        android:layout_marginTop="24dp"
+        android:alpha="0"
         android:text="@string/select_size"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_product_desc"/>
@@ -61,9 +61,9 @@
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
-        android:alpha="1"
+        android:alpha="0"
         android:background="@drawable/button_background"
-        android:text="M"
+        android:text="@string/m"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_select_size"/>
 
@@ -79,5 +79,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
-
-</com.keyframeanimationdemo.utils.NestedConstraintLayout>
+</android.support.constraint.ConstraintLayout>

@@ -60,50 +60,6 @@ class ParallaxEffectActivity : AppCompatActivity() {
                 }
             }
         })
-//        val guideLine = findViewById<Guideline>(R.id.guideline1)
-//        button.setOnClickListener {
-//            val params = guideLine.layoutParams as ConstraintLayout.LayoutParams
-//            val end: Int = params.guideEnd
-//            val anim: ObjectAnimator = ObjectAnimator.ofInt(button, "GuidLineEnd", 0, end)
-//            anim.duration = 2000
-//            anim.interpolator = BounceInterpolator()
-//            anim.start()
-//        }
-
-//        cc.setOnTouchListener { v, event ->
-//            when(event.actionMasked){
-//                MotionEvent.ACTION_MOVE ->{
-//
-//                }
-//                else -> {
-//                }
-//            }
-//        }
-
-
-//        cc.setOnTouchListener { view, motionEvent ->
-//            when (motionEvent.actionMasked) {
-//                MotionEvent.ACTION_MOVE -> {
-//                    val params = guideLine.layoutParams as ConstraintLayout.LayoutParams
-//                    params.guideBegin = motionEvent.x.toInt()
-//                    guideLine.layoutParams = params
-//                }
-//            }
-//            true
-//        }
-
-//        val params = guideLine.layoutParams as ConstraintLayout.LayoutParams
-//        val end: Int = params.guideEnd
-//        val anim: ValueAnimator = ValueAnimator.ofInt(0, end)
-//        anim.duration = 2000
-//        anim.interpolator = BounceInterpolator()
-//
-//        anim.addUpdateListener {
-//            val lp = guideLine.layoutParams as ConstraintLayout.LayoutParams
-//            lp.guideEnd = anim.animatedValue as Int
-//            guideLine.layoutParams = lp
-//        }
-//        anim.start()
     }
 
     private fun setFullScreen() {

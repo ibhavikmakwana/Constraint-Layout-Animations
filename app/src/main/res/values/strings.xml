@@ -27,4 +27,5 @@ Integer feugiat ultricies ligula a venenatis. Phasellus nec faucibus justo. Duis
     <string name="parallax_effect">Parallax Effect</string>
     <string name="title_text">An Interesting title</string>
     <string name="content_text">Various relevant and insightful information</string>
+    <string name="m">M</string>
 </resources>
