@@ -1,18 +1,32 @@
-# KeyFrameAnimation Using ConstraintLayout
-Only a basic case of Key Frame Animation, following the visual illustration given by this video:
+# Animations Using ConstraintLayout
+Simple and Complext animation that can be implemeted easily using the Constraint layout.
 
-https://www.youtube.com/watch?v=OHcfs6rStRo
-
+Developed using [**Kotlin**](https://kotlinlang.org/) :muscle:
+  
 # Preview
-<img src="https://github.com/ibhavikmakwana/KeyFrameAnimation/blob/master/keyframeanimation.gif" height="400" alt="Screenshot"/>         <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/shoopin_key_frame_animation.gif" height="400" alt="Screenshot"/>         <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/collapsing%20toolbar.gif" height="400" alt="Screenshot"/>
 
-<img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/parallax_effect.gif" height="400" alt="Screenshot"/>
+| Keyframe animation | Shopping Keyframe animation | Collapsing toolbar |
+| ------------------ | --------------------------- | ------------------ |
+| <img src="https://github.com/ibhavikmakwana/KeyFrameAnimation/blob/master/keyframeanimation.gif" height="400" alt="Screenshot"/>  | <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/shoopin_key_frame_animation.gif" height="400" alt="Screenshot"/> | <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/collapsing%20toolbar.gif" height="400" alt="Screenshot"/> |
+
+| Parallax Effect |
+| ------------- |
+| <img src="https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/gif/parallax_effect.gif" height="400" alt="Screenshot"/>  |
+
+# Resources
+
+[Keyframe animations with ConstraintLayout and ConstraintSet](https://www.youtube.com/watch?v=OHcfs6rStRo)
+
+# How to contribute?
+
+Check out contribution guidelines 👉[CONTRIBUTING.md](https://github.com/ibhavikmakwana/Constraint-Layout-Animations/blob/master/CONTRIBUTING.md)
 
 # Developed by
 
-- Bhavik Makwana [linkedin](https://www.linkedin.com/in/ibhavikmakwana/) [Twitter](https://twitter.com/ibhavikmakwana)
+Bhavik Makwana [linkedin](https://www.linkedin.com/in/ibhavikmakwana/) [Twitter](https://twitter.com/ibhavikmakwana)
 
 # Credits
+
 I have used [Ramotion's design](https://www.uplabs.com/posts/shopping-app-interactions) concept for the animation of shopping layout
 
 # License
