@@ -6,7 +6,7 @@
     android:id="@+id/constraint"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KeyFrameAnimationActivity">
+    tools:context=".activity.keyframeanimation.KeyFrameAnimationActivity">
 
     <ImageView
         android:id="@+id/iv_background_image"

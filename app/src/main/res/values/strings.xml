@@ -28,4 +28,12 @@ Integer feugiat ultricies ligula a venenatis. Phasellus nec faucibus justo. Duis
     <string name="title_text">An Interesting title</string>
     <string name="content_text">Various relevant and insightful information</string>
     <string name="m">M</string>
+    <string name="lorem_short">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Donec odio.
+        Quisque volutpat mattis eros.
+        Nullam malesuada erat ut turpis.
+        Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+    </string>
+    <string name="circular_positioning">Circular Positioning</string>
 </resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.keyframeanimationdemo.activity.circularpositioning.CircularPositioning">
+
+    <ImageView
+        android:id="@+id/sun_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/sun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/earth_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/earth"
+        app:layout_constraintCircle="@+id/sun_image"
+        app:layout_constraintCircleAngle="45"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <ImageView
+        android:id="@+id/mars_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/mars"
+        app:layout_constraintCircle="@+id/sun_image"
+        app:layout_constraintCircleAngle="110"
+        app:layout_constraintCircleRadius="130dp"/>
+
+    <ImageView
+        android:id="@+id/saturn_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/saturn"
+        app:layout_constraintCircle="@+id/sun_image"
+        app:layout_constraintCircleAngle="235"
+        app:layout_constraintCircleRadius="180dp"/>
+
+    <TextView
+        android:id="@+id/saturn_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/lorem_short"/>
+
+    <TextView
+        android:id="@+id/mars_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/lorem_short"/>
+
+    <TextView
+        android:id="@+id/earth_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/lorem_short"/>
+
+    <TextView
+        android:id="@+id/sun_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:text="@string/lorem_short"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="130dp"/>
+</android.support.constraint.ConstraintLayout>

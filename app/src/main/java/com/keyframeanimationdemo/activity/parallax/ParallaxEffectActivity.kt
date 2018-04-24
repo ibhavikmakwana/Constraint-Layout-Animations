@@ -1,4 +1,4 @@
-package com.keyframeanimationdemo
+package com.keyframeanimationdemo.activity.parallax
 
 import android.content.Context
 import android.content.Intent
@@ -10,6 +10,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.PagerSnapHelper
 import android.support.v7.widget.RecyclerView
 import android.view.WindowManager
+import com.keyframeanimationdemo.R
 import com.keyframeanimationdemo.adapter.Adapter
 import kotlinx.android.synthetic.main.activity_parallax_effect.*
 

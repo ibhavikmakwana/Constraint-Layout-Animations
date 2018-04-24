@@ -1,4 +1,4 @@
-package com.keyframeanimationdemo
+package com.keyframeanimationdemo.activity.keyframeanimation
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,6 +10,7 @@ import android.support.transition.ChangeBounds
 import android.support.transition.TransitionManager
 import android.support.v7.app.AppCompatActivity
 import android.view.animation.OvershootInterpolator
+import com.keyframeanimationdemo.R
 import kotlinx.android.synthetic.main.layout_shopping_activity_select_size.*
 
 
@@ -57,3 +58,9 @@ class ShoppingKeyFrameAnimation : AppCompatActivity() {
         TransitionManager.beginDelayedTransition(shopping_cc, transition)
     }
 }
+
+//inline fun ConstraintLayout.updateParams(constraintSet: ConstraintSet = ConstraintSet(), updates: ConstraintSet.() -> Unit) {
+//    constraintSet.clone(this)
+//    constraintSet.updates()
+//    constraintSet.applyTo(this)
+//}

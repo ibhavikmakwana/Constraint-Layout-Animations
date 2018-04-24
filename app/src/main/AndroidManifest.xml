@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".KeyFrameAnimationActivity"
+            android:name=".activity.keyframeanimation.KeyFrameAnimationActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
@@ -25,14 +25,18 @@
             android:resource="@array/preloaded_fonts"/>
 
         <activity
-            android:name=".ShoppingKeyFrameAnimation"
+            android:name=".activity.keyframeanimation.ShoppingKeyFrameAnimation"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".CollapsingToolbarActivity"
+            android:name=".activity.collpasingtoolbar.CollapsingToolbarActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".ParallaxEffectActivity"
+            android:name=".activity.parallax.ParallaxEffectActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".activity.circularpositioning.CircularPositioning"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

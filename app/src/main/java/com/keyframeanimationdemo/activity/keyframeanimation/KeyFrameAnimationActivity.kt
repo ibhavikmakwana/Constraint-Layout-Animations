@@ -1,4 +1,4 @@
-package com.keyframeanimationdemo
+package com.keyframeanimationdemo.activity.keyframeanimation
 
 import android.content.Context
 import android.content.Intent
@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.transition.ChangeBounds
 import android.transition.TransitionManager
 import android.view.animation.AnticipateOvershootInterpolator
+import com.keyframeanimationdemo.R
 import kotlinx.android.synthetic.main.activity_key_frame_animation.*
 
 class KeyFrameAnimationActivity : AppCompatActivity() {
