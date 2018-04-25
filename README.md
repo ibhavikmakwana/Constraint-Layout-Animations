@@ -1,5 +1,5 @@
 # Animations Using ConstraintLayout
-Simple and Complext animation that can be implemeted easily using the Constraint layout.
+Simple and Complex animation that can be implemeted easily using the Constraint layout.
 
 Developed using [**Kotlin**](https://kotlinlang.org/) :muscle:
   
