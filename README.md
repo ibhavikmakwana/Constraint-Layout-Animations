@@ -1,7 +1,7 @@
 # Animations Using ConstraintLayout
 Simple and Complex animation that can be implemented easily using the Constraint layout.
 
-Developed using [**Kotlin**](https://kotlinlang.org/) :muscle:
+Developed with ❤️ using [**Kotlin**](https://kotlinlang.org/) :muscle: and [**ConstraintLayout**](https://constraintlayout.com/)
   
 # Preview
 
